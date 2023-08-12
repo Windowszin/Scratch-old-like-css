@@ -1,0 +1,94 @@
+html {
+  background: #fff;
+  color: #000;
+  direction: ltr;
+  font: 81.25% 'Lucida Grande', arial, sans-serif;
+}
+div {
+  display: block;
+}
+.box {
+  background: #f7f7f7;
+  border: 1px solid #E0E0E0;
+  -moz-border-top-left-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-box-shadow: 0 2px 3px rgba(34,25,25,0.3);
+  -moz-box-shadow: 0 2px 3px rgba(34,25,25,0.3);
+  -o-box-shadow: 0 2px 3px rgba(34,25,25,0.3);
+  box-shadow: 0 2px 3px rgba(34,25,25,0.3);
+  margin: auto;
+  padding: 0px;
+  width: 940px;
+}
+
+.box .box-content {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.box .box-head {
+  padding: 7px 20px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #fff;
+  box-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.box .box-header h2 {
+  margin: 20px;
+  color: #554747;
+}
+
+.box .box-footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.box .box-content .lg-msg {
+  margin: 20px;
+  font-size: 16px;
+  width: 65%;
+  line-height: 1.6em;
+}
+
+.box .box-content .warning {
+  color: red;
+  font-weight: bold;
+}
+
+.columns {
+  margin: 40px;
+}
+
+.columns .column-left{
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.columns .column-right{
+  float: right;
+  width: 33%;
+  text-align: center;
+}
+
+.columns .column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.columns h3 {
+  color: #554747;
+  font-size: 1.2308em;
+  line-height: 1.25em;
+}
+
